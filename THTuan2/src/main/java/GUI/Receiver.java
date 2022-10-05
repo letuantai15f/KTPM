@@ -102,6 +102,8 @@ public class Receiver extends JFrame implements ActionListener {
 		contentPane.add(txtmess);
 		txtmess.setColumns(10);
 		btnsend.addActionListener(this);
+		
+		
 		BasicConfigurator.configure();
 		// thiết lập môi trường cho JJNDI
 		Properties settings = new Properties();
